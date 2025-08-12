@@ -1,0 +1,191 @@
+
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- ====== SEO 基本 ====== -->
+  <title>Learnest Starter — 靜態單頁模板</title>
+  <meta name="description" content="白＋藍主色、RWD、可存取、零安裝、可直接用於 GitHub Pages 的單頁模板。" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Learnest Starter — 靜態單頁模板" />
+  <meta property="og:description" content="白＋藍主色、RWD、可存取、零安裝、可直接用於 GitHub Pages 的單頁模板。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./assets/work-1.png" />
+  <meta property="og:url" content="." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles / Script (相對路徑) -->
+  <link rel="icon" type="image/png" href="./assets/favicon.png" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer src="./script.js"></script>
+
+  <!--
+    ====== 站點設定（可自行替換） ======
+    SITE_NAME: Learnest（學森）
+    SITE_TAGLINE: 題庫練習＋創作者市集的簡潔模板
+    CTA_PRIMARY: 立即聯絡
+    SOCIAL_GITHUB: https://github.com/yourname
+    SOCIAL_TWITTER: https://twitter.com/yourname
+    SOCIAL_LINKEDIN: https://www.linkedin.com/in/yourname/
+  -->
+</head>
+<body>
+  <!-- 跳至主要內容：鍵盤可用 -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner" aria-label="Site header">
+    <div class="container nav">
+      <div class="brand">
+        <img src="./assets/favicon.png" alt="" class="brand-mark" width="24" height="24" />
+        <span class="brand-name">Learnest</span>
+      </div>
+      <nav class="nav-links" role="navigation" aria-label="Primary">
+        <a href="#features">特色</a>
+        <a href="#gallery">作品</a>
+        <a href="#contact">聯絡</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="section hero" id="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <h1 id="hero-title">用最簡單的方法，上線一個漂亮的單頁網站</h1>
+        <p class="lead">白＋藍主色、Inter 字體、RWD、a11y、前端驗證，開箱即用，零安裝，直接上載至 GitHub Pages。</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact">立即聯絡</a>
+          <a class="btn btn-ghost" href="#gallery">看看作品</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="features" aria-labelledby="feat-title">
+      <div class="container">
+        <h2 id="feat-title" class="section-title">重點特色</h2>
+        <div class="grid features">
+          <article class="card">
+            <div class="icon" aria-hidden="true">⚡️</div>
+            <h3>零安裝</h3>
+            <p>無需 npm / 打包工具。檔案直接推上 GitHub Pages 即可。</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">📱</div>
+            <h3>RWD</h3>
+            <p>手機優先，適配 360px / 768px / 1280px。</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">♿️</div>
+            <h3>a11y</h3>
+            <p>語義化 HTML、標籤對應、良好對比與鍵盤可用。</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">🔍</div>
+            <h3>SEO</h3>
+            <p>完整 <code>&lt;title&gt;</code>、描述與 Open Graph 標籤。</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">🧭</div>
+            <h3>平滑體驗</h3>
+            <p>平滑滾動、回到頂部、按鈕與卡片 hover 動效。</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">✅</div>
+            <h3>表單驗證</h3>
+            <p>前端驗證與成功訊息，不送往後端。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <h2 id="gallery-title" class="section-title">作品／Gallery</h2>
+        <div class="grid gallery">
+          <figure class="card">
+            <img class="work-img" data-fallback-index="1" src="./assets/work-1.png" alt="範例作品 1" loading="lazy" width="1200" height="800">
+            <figcaption>範例作品 1</figcaption>
+          </figure>
+          <figure class="card">
+            <img class="work-img" data-fallback-index="2" src="./assets/work-2.png" alt="範例作品 2" loading="lazy" width="1200" height="800">
+            <figcaption>範例作品 2</figcaption>
+          </figure>
+          <figure class="card">
+            <img class="work-img" data-fallback-index="3" src="./assets/work-3.png" alt="範例作品 3" loading="lazy" width="1200" height="800">
+            <figcaption>範例作品 3</figcaption>
+          </figure>
+          <figure class="card">
+            <img class="work-img" data-fallback-index="4" src="./assets/work-4.png" alt="範例作品 4" loading="lazy" width="1200" height="800">
+            <figcaption>範例作品 4</figcaption>
+          </figure>
+          <figure class="card">
+            <img class="work-img" data-fallback-index="5" src="./assets/work-5.png" alt="範例作品 5" loading="lazy" width="1200" height="800">
+            <figcaption>範例作品 5</figcaption>
+          </figure>
+          <figure class="card">
+            <img class="work-img" data-fallback-index="6" src="./assets/work-6.png" alt="範例作品 6" loading="lazy" width="1200" height="800">
+            <figcaption>範例作品 6</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title" class="section-title">聯絡我們</h2>
+        <form id="contact-form" class="form" novalidate aria-describedby="form-note">
+          <p id="form-note" class="form-note">* 送出後會顯示感謝訊息（不會傳送到伺服器）。</p>
+
+          <div class="field">
+            <label for="name">姓名</label>
+            <input id="name" name="name" type="text" required minlength="2" autocomplete="name" />
+            <small class="error" id="error-name" aria-live="polite"></small>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email" />
+            <small class="error" id="error-email" aria-live="polite"></small>
+          </div>
+
+          <div class="field">
+            <label for="message">訊息</label>
+            <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+            <small class="error" id="error-message" aria-live="polite"></small>
+          </div>
+
+          <div class="actions">
+            <button class="btn btn-primary" type="submit" aria-label="送出表單">送出</button>
+          </div>
+
+          <p id="thankyou" class="thankyou" role="status" aria-live="polite" hidden>
+            ✅ 感謝你的訊息！我們已經收到，會盡快回覆你。
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <button id="backToTop" class="back-to-top" aria-label="返回頂部" title="返回頂部">↑</button>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer">
+      <p>© <span id="year"></span> Learnest. 保留一切權利。</p>
+      <ul class="social" aria-label="Social links">
+        <li><a href="#" rel="noopener" target="_blank" aria-label="GitHub">GitHub</a></li>
+        <li><a href="#" rel="noopener" target="_blank" aria-label="Twitter">Twitter</a></li>
+        <li><a href="#" rel="noopener" target="_blank" aria-label="LinkedIn">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
